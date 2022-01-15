@@ -267,11 +267,15 @@ article img{
 margin-left: 40px;
 }
 article .extra-text{
-margin-left: 10px;
+margin-left: 1px;
+}
+footer{
+   
+      width:84.99%;
+   }
 }
 
 
-}
 
 /*-----------------------------
  media querry only for I pad
