@@ -208,16 +208,16 @@ footer{
   font-size: 20px;
 }
 
-/*---------------
- media querry
- -----------------*/
+/*--------------------------
+ media querry only mobile 
+ ---------------------------*/
 @media only  screen and (max-width:688px) {
    .container{
       width:100%;
    }
   
    .section-head{
-      margin-left: 100px;
+      margin-left: 80px;
    }
    .adding-photo img{
       margin-left: 100px;
@@ -264,11 +264,18 @@ footer{
       
    }
 article img{
-margin-left: 50px;
+margin-left: 40px;
 }
 article .extra-text{
-margin-left: 50px;
+margin-left: 10px;
 }
 
 
 }
+
+/*-----------------------------
+ media querry only for I pad
+ ------------------------------*/
+ @media screen {
+    
+ }
