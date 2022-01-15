@@ -271,7 +271,7 @@ article img{
 margin-left: 20px;
 }
 article .extra-text{
-margin-left: 5px;
+margin-left: 20px;
 
 }
 article .extra-text h3{
@@ -280,7 +280,7 @@ article .extra-text h3{
 }
 footer{
    padding: 0;
-      width: 85%;
+      width: 100%;
       
    }
 }
