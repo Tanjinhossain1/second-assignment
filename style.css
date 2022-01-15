@@ -204,8 +204,8 @@ footer{
    height: 239px;
 }
 #social-font i{
-  padding: 20px;
-  font-size: 20px;
+  padding: 30px;
+  font-size: 30px;
 }
 
 /*--------------------------
@@ -280,8 +280,7 @@ article .extra-text h3{
 }
 footer{
    padding: 0;
-      width: 100%;
-      
+   width: 100%;
    }
 }
 
@@ -290,6 +289,67 @@ footer{
 /*-----------------------------
  media querry only for I pad
  ------------------------------*/
- @media screen {
-    
+ @media only screen and (min-width:689px) and (max-width:992px) {
+   .container{
+      width:100%;
+     
+   }
+   .section-head{
+      margin-left: 30px;
+   }
+   .adding-photo img{
+      margin-left: 20px;
+   }
+  
+   .main-header{
+    align-items: flex-end;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+   }
+   .logos{
+      margin-left: 80px;
+   }
+   .only-media{
+      margin-right: 100px;
+   }
+   .main{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .colection{
+      
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .colect{
+      margin: 5px;
+      grid-template-columns: repeat(2, 1fr);
+     padding:0px;
+   }
+   .extra-margin{
+    padding: 0px;
+      grid-template-columns: repeat(2, 1fr);
+     margin: 5px;
+   }
+   .extra-margin2{
+      padding:0px;
+      grid-template-columns: repeat(2, 1fr);
+     margin: 5px;
+   }
+   article{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      
+   }
+article img{
+margin-left: 50px;
+}
+article .extra-text{
+margin-left: 50px;
+
+}
+  
+   
+   
+   
+   
  }
