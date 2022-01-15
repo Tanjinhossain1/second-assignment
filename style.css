@@ -217,10 +217,11 @@ footer{
    }
   
    .section-head{
-      margin-left: 80px;
+      margin-left: 30px;
    }
+   
    .adding-photo img{
-      margin-left: 100px;
+      margin-left: 10px;
    }
   
    .main-header{
@@ -230,7 +231,10 @@ footer{
    }
    
       .logos{
-         margin-left: 100px;
+         margin-left: 70px;
+      }
+      .only-media{
+         margin-right: 100px;
       }
    
    .main{
@@ -243,20 +247,20 @@ footer{
    }
    .colect{
       grid-template-columns: repeat(1, 1fr);
-      margin-left: 150px;
+      margin-left: 100px;
    }
    .extra-margin{
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-      margin-left: 150px;
+      margin-left: 100px;
    }
    .extra-margin2{
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-      margin-left: 150px;
+      margin-left: 100px;
    }
    #seemore{
-      margin-right: 150px;
+      margin-right: 250px;
    }
    article{
       display: grid;
@@ -264,14 +268,20 @@ footer{
       
    }
 article img{
-margin-left: 40px;
+margin-left: 20px;
 }
 article .extra-text{
-margin-left: 1px;
+margin-left: 5px;
+
+}
+article .extra-text h3{
+   font-size: 32px;
+
 }
 footer{
-   
-      width:84.99%;
+   padding: 0;
+      width: 85%;
+      
    }
 }
 
