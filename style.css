@@ -58,6 +58,7 @@
    width: 40%;
    padding-left: 70px;
    margin-top: 30px;
+   cursor: pointer;
 }
 .arrow p span{
    padding-left: 20px;
@@ -112,13 +113,13 @@
 }
 .colection{
    margin-top: 100px;
-  background-color: #f1ebeb02;
+  background-color: #fafafa00 ;
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    
 }
 .colect{
-   box-shadow: 1px 1px 20px whitesmoke;
+   box-shadow: 1px 1px 20px rgb(245, 245, 245);
    padding:30px;
    margin: 30px;
    Width:329px;
@@ -175,6 +176,7 @@
    color: #E02C6D;
   text-align: end;
   margin-right: 350px;
+  cursor: pointer;
 }
 /*--------- 
 Extra 
