@@ -217,7 +217,7 @@ footer{
    }
   
    .section-head{
-      margin-left: 30px;
+      margin-left: 20px;
    }
    
    .adding-photo img{
@@ -277,6 +277,9 @@ margin-left: 20px;
 article .extra-text h3{
    font-size: 32px;
 
+}
+nav ul li{
+   margin-left: 10px;
 }
 footer{
    padding: 0;
